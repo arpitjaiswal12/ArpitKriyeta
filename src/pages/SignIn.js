@@ -26,7 +26,7 @@ export default function SignIn() {
           <p className="mt-2 text-center text-sm text-gray-600 ">
             Don&apos;t have an account?{" "}
             <Link
-              to="#"
+              to="/register"
               title=""
               className="font-semibold text-black transition-all duration-200 hover:underline"
             >

@@ -26,9 +26,9 @@ export default function Registration() {
             Register to create account
           </h2>
           <p className="mt-2 text-center text-base text-gray-600">
-            Already registered{" "}
+            Already registered?{" "} 
             <Link
-              to=""
+              to="/signin"
               title=""
               className="font-medium text-black transition-all duration-200 hover:underline"
             >
