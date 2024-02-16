@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { Icon } from "react-icons-kit";
+// import { Link } from "react-router-dom";
+// import { Icon } from "react-icons-kit";
 import StudentAcademics from "../Componets/StudentAcademics";
 
 export default function Profile() {

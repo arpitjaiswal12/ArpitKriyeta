@@ -10,6 +10,8 @@ import Profile from './pages/Profile.js';
 import SignIn from './pages/SignIn.js';
 import Navbar from './Componets/Navbar.js';
 import Home from './pages/Home.js';
+import Addknowledgebase from './pages/Addknowledgebase.js';
+import Productcart from './Componets/Productcart.js';
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
           <Route path='/profile' element={<Profile/> }/>
           <Route path='/signin' element={<SignIn/> }/>
           <Route path='/home' element={<Home/> }/>
+          <Route path='/content' element={<Addknowledgebase/> }/>
+          <Route path='/product' element={<Productcart/> }/>
         </Routes>
       </Router>
       
