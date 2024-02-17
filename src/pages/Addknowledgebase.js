@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Addpdf from "../Componets/Addfile";
 import Addurl from "../Componets/Addurl";
+import AiButton from "../Componets/AiButton";
 
 export default function Addknowledgebase() {
   const [pdfStatus, setpdfStatus] = useState(0);
@@ -44,6 +45,9 @@ export default function Addknowledgebase() {
             <Addurl/>
           ))}
         </form>
+      </div>
+      <div className="flex justify-center">
+      <AiButton/>
       </div>
     </div>
   );
