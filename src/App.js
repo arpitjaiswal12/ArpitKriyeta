@@ -13,6 +13,7 @@ import Home from './pages/Home.js';
 import Addknowledgebase from './pages/Addknowledgebase.js';
 import Productcart from './Componets/Productcart.js';
 import AboutUs from './pages/AboutUs.js';
+import Contact from './pages/Contact.js';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path='/content' element={<Addknowledgebase/> }/>
           <Route path='/product' element={<Productcart/> }/>
           <Route path='/about' element={<AboutUs/> }/>
+          <Route path='/contact' element={<Contact/> }/>
         </Routes>
       </Router>
       
